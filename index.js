@@ -53,7 +53,7 @@ async function getKeypairFromSeed(seedPhrase) {
   const randomAddresses = generateRandomAddresses(100)
   console.log('Generated 100 random addresses:', randomAddresses)
 
-  const amountToSend = 0.001 //
+  const amountToSend = 0.000001 //
 
   for (const address of randomAddresses) {
     const toPublicKey = new PublicKey(address)
