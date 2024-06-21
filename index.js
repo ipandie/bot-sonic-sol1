@@ -50,8 +50,8 @@ async function getKeypairFromSeed(seedPhrase) {
   }
   const fromKeypair = await getKeypairFromSeed(seedPhrase)
 
-  const randomAddresses = generateRandomAddresses(10)
-  console.log('Generated 10 random addresses:', randomAddresses)
+  const randomAddresses = generateRandomAddresses(100)
+  console.log('Generated 100 random addresses:', randomAddresses)
 
   const amountToSend = 0.000001 //
 
